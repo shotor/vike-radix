@@ -1,0 +1,18 @@
+{
+  "name": "@app/source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "######## WEB ########": "#####################################",
+    "web:dev": "npm run dev --workspace=web"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "app/web"
+  ],
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
